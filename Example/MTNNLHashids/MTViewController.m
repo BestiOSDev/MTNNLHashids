@@ -6,8 +6,8 @@
 //  Copyright (c) 2019 BestiOSDev. All rights reserved.
 //
 
-#import "MTNNLHashids.h"
 #import "MTViewController.h"
+#import <MTNNLHashids/MTNNLHashids.h>
 
 @interface MTViewController ()
 
@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
     
+    [[MTNNLHashids alloc] initWithSalt:@"dz"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

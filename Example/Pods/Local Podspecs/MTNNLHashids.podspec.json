@@ -15,7 +15,9 @@
     "git": "https://github.com/BestiOSDev/MTNNLHashids.git",
     "tag": "0.1.0"
   },
-  "source_files": "MTNNLHashids/Classes/**/*.{h,m,c}",
+  "ios": {
+    "vendored_frameworks": "MTNNLHashids/Framework/MTNNLHashids.framework"
+  },
   "platforms": {
     "ios": "8.0"
   }

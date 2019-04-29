@@ -21,12 +21,13 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'BestiOSDev' => '1060545231@qq.com' }
 s.source           = { :git => 'https://github.com/BestiOSDev/MTNNLHashids.git', :tag => s.version.to_s }
 
-s.ios.deployment_target = '8.0'
 
 if ENV['IS_SOURCE']
     s.source_files  = 'MTNNLHashids/Classes/**/*.{h,m,c}'
 else
-    s.vendored_libraries = 'MTNNLHashids/Framework/libMTNNLHashids.a'
+    s.ios.vendored_frameworks = 'MTNNLHashids/Framework/MTNNLHashids.framework'
 end
+
+s.ios.deployment_target = '8.0'
 
 end
