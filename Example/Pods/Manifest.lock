@@ -1,0 +1,16 @@
+PODS:
+  - MTNNLHashids (0.1.0)
+
+DEPENDENCIES:
+  - MTNNLHashids (from `../`)
+
+EXTERNAL SOURCES:
+  MTNNLHashids:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTNNLHashids: d17c2b3690bf2fa0d8dda0a557757d6de6452465
+
+PODFILE CHECKSUM: 924cdbdaef3d1f73fcaa9b4b64528ac86acef8f1
+
+COCOAPODS: 1.6.1

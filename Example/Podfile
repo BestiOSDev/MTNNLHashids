@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MTNNLHashids_Example' do
+  pod 'MTNNLHashids', :path => '../'
+#  pod 'NNLHashids'
+  target 'MTNNLHashids_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

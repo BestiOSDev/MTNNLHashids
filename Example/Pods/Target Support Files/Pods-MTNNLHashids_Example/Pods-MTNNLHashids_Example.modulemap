@@ -1,0 +1,6 @@
+framework module Pods_MTNNLHashids_Example {
+  umbrella header "Pods-MTNNLHashids_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
