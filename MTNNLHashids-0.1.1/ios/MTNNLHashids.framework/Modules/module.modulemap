@@ -1,0 +1,6 @@
+framework module MTNNLHashids {
+  umbrella header "MTNNLHashids.h"
+
+  export *
+  module * { export * }
+}
