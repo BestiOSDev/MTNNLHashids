@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTNNLHashids'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MTNNLHashids.Framework'
 
 s.description      = <<-DESC
@@ -28,6 +28,6 @@ else
     s.ios.vendored_frameworks = 'MTNNLHashids/Framework/MTNNLHashids.framework'
 end
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 
 end
